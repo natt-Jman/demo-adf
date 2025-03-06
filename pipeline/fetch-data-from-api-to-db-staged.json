@@ -113,13 +113,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureSqlTable4",
+						"referenceName": "stage_data",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable5",
+						"referenceName": "prep_data",
 						"type": "DatasetReference"
 					}
 				]

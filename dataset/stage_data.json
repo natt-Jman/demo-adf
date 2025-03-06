@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable4",
+	"name": "stage_data",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
