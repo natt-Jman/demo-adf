@@ -1,0 +1,58 @@
+{
+	"name": "AzureSqlTable7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "productid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "unitssold",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "manufprice",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "saleprice",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "grosssale",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "sale",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "profit",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "dateloaded",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "products"
+		}
+	}
+}
