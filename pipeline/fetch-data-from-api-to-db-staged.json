@@ -1,5 +1,5 @@
 {
-	"name": "fetch-data-from-api-to-db_copy1",
+	"name": "fetch-data-from-api-to-db-staged",
 	"properties": {
 		"activities": [
 			{
@@ -49,7 +49,7 @@
 				"type": "SqlServerStoredProcedure",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "Copy data from stage to prep",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -72,7 +72,7 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "Copy data from stage to prep",
 				"type": "Copy",
 				"dependsOn": [
 					{
